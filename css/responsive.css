@@ -6,6 +6,12 @@
     --secondary-color: #16c2a3;
 }
 
+@media screen and (max-width:991.99px) {
+    .we-do-bg .we-do .we-do-sec-texts {
+        margin-top: 530px;
+    }
+}
+
 @media only screen and (max-width: 320.97px) {
 
     * { 
@@ -61,10 +67,6 @@
         margin: 0;
     }
 
-    /* .header .header-menu ul li {
-        display: none;
-    } */
-
     .choose-us .cta-btns {
         text-align: center;
         display: block;
@@ -87,8 +89,6 @@
 
 }
 
-
-
 @media (min-width: 450px) and (max-width: 574.98px) {
 
     * {
@@ -96,18 +96,10 @@
         margin: 0;
     }
 
-    /* .header .header-menu ul li {
-        display: none;
-    } */
-
     .we-do-bg {
         background: url('../images/laptopes.png');
         background-repeat: no-repeat;
         margin-top: 115px;
-    }
-
-    .we-do-bg .we-do .we-do-sec-texts {
-        margin-top: 530px;
     }
 
     .services .services-top-headings p {
@@ -282,7 +274,6 @@
 
 }
 
-
 @media (max-width: 991.99px) {
 
     * {
@@ -350,15 +341,3 @@
     }
 
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {} */
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {} */
-
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {} */
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {...} */
